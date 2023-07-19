@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8ousf5j9eEi5u6Zr8/syET2Y2WjUdsAzJCNDMyhbyjWAP0i/kng7dZfjrp86uEzyWocZW3O703IPF/rzo/t/LA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luizg\\Desktop\\LimitesTif\\LimitesTif.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luizg\\.nuget\\packages\\gdal\\3.6.4\\gdal.3.6.4.nupkg.sha512"
+  ],
+  "logs": []
+}
