@@ -11,14 +11,12 @@ namespace LimitesTif
             GdalConfiguration.ConfigureGdal();
             GdalConfiguration.ConfigureOgr();
 
-            limites();
+            limites("C:\\Users\\luizg\\Downloads\\MINA_JUNHO_23.tif");
         }
 
-        static void limites(){
-            
-            var s = "C:\\Users\\luizg\\Downloads\\MINA_JUNHO_23.tif";
+        static void limites(string caminhoParaOArquivoTif){
 
-           using (Dataset dataset = Gdal.Open(s, Access.GA_ReadOnly))
+           using (Dataset dataset = Gdal.Open(caminhoParaOArquivoTif, Access.GA_ReadOnly))
             {
                 double[] geoTransform = new double[6];
                 dataset.GetGeoTransform(geoTransform);
